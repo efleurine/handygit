@@ -9,3 +9,9 @@ Once there is no conflicts, you can commit the merge or aborting with ```git mer
 
 ### Delete a remote branch
 ```git push --delete (remote) (branch)``` like ```git push --delete origin dev```
+
+### To stop tracking a file you need to remove it from the index. This can be achieved with this command.
+```git rm --cached <file>```
+
+### To assume that a file has not modified
+```git update-index --assume-unchanged```
