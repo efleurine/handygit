@@ -14,7 +14,7 @@ Once there is no conflicts, you can commit the merge or aborting with ```git mer
 ```git rm --cached <file>```
 
 ### To assume that a file has not modified
-```git update-index --assume-unchanged```
+```git update-index --assume-unchanged <file>``` and ```git update-index --no-assume-unchanged <file>```
 
 ### CRLF & LF
 
